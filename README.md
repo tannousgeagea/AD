@@ -4,4 +4,11 @@ In this project, we applied anomaly detection to pedestrian motion patterns in r
 
 We implemented advanced anomaly detection methods in Python using ML libraries PyTorch and TensorFlow, as well as simulating virtual environments aided by Ansys AVxcelerate-tools.
 
+To use the models please either run the command on python:
+
+'''
+python main.py --modelName vae --source path/to/datasets batch_size 16 latent_dim 16 lr 0.0001 epochs 100
+'''
+
+or check the example of exp.ipynb
 
